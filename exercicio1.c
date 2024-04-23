@@ -10,10 +10,9 @@ int buscaSequencialRecursiva(vector<int>& A, int X, int indice) {
     }
     
     if (A[indice] == X) {
-        return indice; // Retorna o índice se X for encontrado
+        return indice; 
     }
     
-    // Chama recursivamente a função com o próximo índice
     return buscaSequencialRecursiva(A, X, indice + 1);
 }
 
@@ -48,7 +47,6 @@ int buscaSequencialRecursiva(vector<int>& A, int X, int indice) {
         return indice; // Retorna o índice se X for encontrado
     }
     
-    // Chama recursivamente a função com o próximo índice
     return buscaSequencialRecursiva(A, X, indice + 1);
 }
 
